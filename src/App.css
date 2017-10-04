@@ -22,6 +22,58 @@
   font-size: large;
 }
 
+.position-modal {
+  margin: 0 auto;
+  position: absolute;
+  border: 3px solid #fff;
+  padding: 10px;
+  background-color: #ff0000;
+  color: #000;
+}
+
+.location {
+  position: absolute;
+  margin: 0 auto;
+  max-width: 30%;
+  max-height: 45%;
+  color: #000;
+  background-color: #ff0000;
+  background-size: cover;
+}
+
+.modal-content {
+  margin: 0 auto;
+  position: fixed;
+  max-width: 40%;
+  max-height: 65%;
+  opacity: .6;
+  background-color: #fff;
+}
+
+.tab-content {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.checkoutbtn {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: #4286f4;
+}
+
+.changepass {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background-color: #4286f4;
+}
+
+.signupsignin {
+  margin: 0 auto;
+  background-color: #4286f4;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
