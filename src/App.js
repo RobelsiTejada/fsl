@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import 'react-dom';
+import 'react-modal';
 import './App.css';
+import './Modal';
+import './ChangePassword';
+import './SignIn';
+import './SignUp';
+import './SignOut';
+
 
 class App extends Component {
   render() {
