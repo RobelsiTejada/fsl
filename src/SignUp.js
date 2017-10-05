@@ -3,7 +3,7 @@ import  'react-dom';
 import 'react-modal';
 import './App.css';
 
-class SignUp extends React.Component {
+class SignUp extends Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
