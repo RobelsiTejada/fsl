@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import SignIn from './SignIn';
-// import SignUp from './SignUp';
-// import SignOut from './SignOut';
-// import ChangePassword from './ChangePassword';
-// import ExampleApp from './Modal'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
