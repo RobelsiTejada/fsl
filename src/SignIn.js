@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import ExampleApp from './Modal';
 import 'react-dom';
 import 'react-modal';
 import './App.css';
 
 class SignIn extends Component {
-  // class NameForm extends React.Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import ExampleApp from './Modal';
 import  'react-dom';
 import 'react-modal';
 import './App.css';
@@ -37,5 +35,3 @@ class SignUp extends React.Component {
   }
 }
 export default SignUp;
-
-// ReactDOM.render(<SignUp />, document.getElementById('signup'));

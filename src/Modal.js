@@ -1,12 +1,8 @@
-// ReactDOM.render(<Modal />, ModalPop);
-//
-// export default ModalPop;
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactModal from 'react-modal';
 
-class ExampleApp extends React.Component {
+class ModalApp extends React.Component {
   constructor () {
     super();
     this.state = {
@@ -42,4 +38,4 @@ class ExampleApp extends React.Component {
 
 const props = {};
 
-ReactDOM.render(<ExampleApp {...props} />, document.getElementById('main'))
+ReactDOM.render(<ModalApp {...props} />, document.getElementById('main'))

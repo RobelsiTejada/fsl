@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import ExampleApp from './Modal';
 import 'react-dom';
 import 'react-modal';
 import './App.css';
@@ -25,5 +23,3 @@ class SignOut extends Component {
   }
 }
 export default SignOut;
-
-// ReactDOM.render(<SignOut />, document.getElementById('SignOut'));
